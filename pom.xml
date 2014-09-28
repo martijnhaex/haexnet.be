@@ -6,7 +6,7 @@
 
     <groupId>be.haexnet</groupId>
     <artifactId>website</artifactId>
-    <version>1.0-RELEASE</version>
+    <version>1.1-SNAPSHOT</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -38,7 +38,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <scope>provided</scope>
-        </dependency>
+        </dependgency>
     </dependencies>
 
     <!-- Package as an executable jar -->

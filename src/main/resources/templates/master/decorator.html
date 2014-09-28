@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.thymeleaf.org">
+<head th:replace="master/head :: head"> </head>
+<body id="page-top" class="index">
+
+<nav th:replace="master/menu :: navigation"></nav>
+
+<header layout:fragment="header"></header>
+
+<section layout:fragment="about"></section>
+<section layout:fragment="me"></section>
+
+<footer th:replace="master/footer :: copyright"></footer>
+
+<!-- jQuery Version 1.11.0 -->
+<script src="js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/grayscale.js"></script>
+
+</body>
+</html>

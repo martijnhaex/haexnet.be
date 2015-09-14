@@ -25,6 +25,17 @@
 # .idea/gradle.xml
 # .idea/libraries
 
+### Gradle ###
+.gradle
+build/
+gradle/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
 # Mongo Explorer plugin:
 # .idea/mongoSettings.xml
 
@@ -46,7 +57,6 @@ atlassian-ide-plugin.xml
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 
-
 ### Java ###
 *.class
 
@@ -60,7 +70,6 @@ com_crashlytics_export_strings.xml
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
 
 ### Maven ###
 target/

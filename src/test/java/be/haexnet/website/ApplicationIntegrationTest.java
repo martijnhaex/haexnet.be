@@ -16,6 +16,7 @@ import static org.fest.assertions.Assertions.assertThat;
 @WebAppConfiguration
 @IntegrationTest("server.port:0")
 public class ApplicationIntegrationTest {
+
     @Autowired
     IndexController controller;
 
@@ -23,4 +24,5 @@ public class ApplicationIntegrationTest {
     public void canAutowire() throws Exception {
         assertThat(controller).isNotNull();
     }
+
 }
